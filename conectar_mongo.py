@@ -11,11 +11,11 @@ db = client.loja_db
 # todos eles para a variável us. Depois fazemos
 # a leitura de todas linha com o for e exibimos
 # na tala
-# for us db["usuario"].find():
+# for us in db["usuario"].find():
 #     print(us)
 
 # Abaixo a consulta realiza o cadastro de um novo usuario e retorna o id do usuario cadastrado
-# usuarior o_id = db["usuario"].insert_one({"nomeusuario":"martha","senha":"123","nivel":"usuario"}).inserted_id
+# usuario_id = db["usuario"].insert_one({"nomeusuario":"martha","senha":"123","nivel":"usuario"}).inserted_id
 # print(usuario_id)
 
 # Localizar apenas um usuario no banco de dados
